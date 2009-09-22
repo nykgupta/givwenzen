@@ -1,0 +1,15 @@
+=== How are parameter converted to types ===
+
+You can use custom types in your [StepClases  step method] parameters.
+
+Like [http://fitnesse.org/FitNesse.SliM slim] the step executor will use a [http://java.sun.com/j2se/1.5.0/docs/api/java/beans/PropertyEditor.html PropertyEditor].
+
+By default [http://java.sun.com/j2se/1.5.0/docs/api/java/beans/PropertyEditor.html property editors] can be in the same package as the object type or in the {{{bdd.parse}}} package.  
+
+See:
+
+http://fitnesse.org/FitNesse.UserGuide.SliM.CustomTypes
+
+http://java.sun.com/javase/6/docs/api/java/beans/PropertyEditorSupport.html
+
+http://javadude.com/articles/propedit/index.html
