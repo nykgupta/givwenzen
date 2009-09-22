@@ -6,7 +6,7 @@ Like [http://fitnesse.org/FitNesse.SliM slim] the step executor will use a [http
 
 By default [http://java.sun.com/j2se/1.5.0/docs/api/java/beans/PropertyEditor.html property editors] can be in the same package as the object type or in the {{{bdd.parse}}} package.  
 
-=== See: ===
+==== See: ====
 
 http://fitnesse.org/FitNesse.UserGuide.SliM.CustomTypes
 
