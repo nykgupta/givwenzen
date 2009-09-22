@@ -1,0 +1,13 @@
+=== Some [http://cukes.info/ Cucumber] equivalences in [http://fitnesse.org/ FitNesse] ===
+
+==== [http://wiki.github.com/aslakhellesoy/cucumber/background Cucumber Background] ====
+Using Suites and {{{SuiteSetUp}}} can give you the equivalent of a background or at least a similar idea.
+
+==== [http://wiki.github.com/aslakhellesoy/cucumber/cucumber-feature Cucumber Feature] ====
+[http://code.google.com/p/givwenzen GivWenZen] does not have features at this point.  Since I originally wanted to use it with [http://fitnesse.org/ FitNesse] the closest idea to a Feature would be a suite.  I try to organize a suite of tests around a feature.  Suites can have a [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SuiteSetUp] and a [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SuiteTearDown] to have state that is shared between scenarios (test pages) in [http://fitnesse.org/ FitNesse]
+
+==== [http://wiki.github.com/aslakhellesoy/cucumber/feature-introduction Cucumber Scenario] ====
+[http://code.google.com/p/givwenzen GivWenZen] does not have the idea of a scenario at this point.  If you use it with [http://fitnesse.org/ FitNesse] the closest idea to a is a test page.  I try to organize such that each test page contains a single scenario.  Each page can have a [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SetUp] and [http://fitnesse.org/FitNesse.UserGuide.SpecialPages TearDown] page similar to a scenario in Cucumber.
+
+==== [http://wiki.github.com/aslakhellesoy/cucumber/tags Cucumber Tags] ====
+[http://code.google.com/p/givwenzen GivWenZen] does not have the idea of a tag at this point.  If you use it with [http://fitnesse.org/ FitNesse] you can use the [http://fitnesse.org/ FitNesse's] built tag support found in the properties of a page.
