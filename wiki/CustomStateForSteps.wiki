@@ -1,0 +1,10 @@
+=== Sometimes you want state to be shared between step classes ===
+
+Similar to the ability to call other steps inside your step classes you can have a step class that is instantiated with a custom state object.
+
+To use a custom state object you must create the {{{org.givwenzen.GivWenZenExecutor}}} with the constructor:
+{{{
+   public GivWenZenExecutor(Object stepState, DomainStepFinder domainStepFinder)
+}}}
+ * Pass in your custom state object instance as the first parameter
+ * and create a {{{org.givwenzen.DomainStepFinder}}} with either the default constructor to use the default step package or the constructor that takes a String to use a [StepClassLocation  custom step package].
