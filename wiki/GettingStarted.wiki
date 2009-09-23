@@ -6,7 +6,7 @@
 
 === 3) Run the example slim test at http://localhost/SlimExamples ===
 
-=== 4) Create your on example fitnesse page modeled after the example test ===
+=== 4) Create your on example [http://fitnesse.org/FrontPage FitNesse] page modeled after the example test ===
 
 ===== import and start should go in [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SetUp] or [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SuiteSetUp] =====
 {{{
