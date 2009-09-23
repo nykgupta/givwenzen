@@ -4,7 +4,7 @@
 
 === 2) Go a command line and go to the directory you unzipped the files to and {{{java -jar ./lib/fitnesse.jar}}} ===
 
-=== 3) Start by running the example slim test at http://localhost/SlimExamples ===
+=== 3) Run the example slim test at http://localhost/SlimExamples ===
 
 === 4) Create your on example fitnesse page modeled after the example test ===
 
@@ -23,7 +23,7 @@
 | when | the date changes to tomorrow  |
 | then | a notification exists indicating the ToDo is due |
 }}}
-=== 5) The following is an example step class and test step method ===
+=== 5) Create the step class and methods like the class below ===
 {{{
 package bdd.steps;
 
