@@ -1,8 +1,8 @@
 === How to create a step class ===
 
-Step Classes or plain old java classes (POJOs) that are annotated with {{{org.givwenzen.DomainSteps}}}
+Step Classes are plain old java classes (POJOs) that are annotated with {{{org.givwenzen.DomainSteps}}}
 
-By default the {{{org.givwenzen.GivWenZenExecutor}}} classs looks for the steps in the package bdd.steps and any sub-packages.
+By default the {{{org.givwenzen.GivWenZenExecutor}}} class looks for the steps in the package bdd.steps and any sub-packages.
 
 Example:
 {{{
