@@ -19,9 +19,11 @@ The step class should be placed in the package or sub-package of bdd.steps.
 Example:
   @DomainSteps
   public class StepClass {
+
     @DomainStep("i do not have this method")
     public void domainStep() {
       // TODO implement step
     }  
+
   }
 }}}
