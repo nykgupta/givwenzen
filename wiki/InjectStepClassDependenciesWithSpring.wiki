@@ -70,5 +70,10 @@ public class MyGivWenZenForSlim extends GivWenZenForSlim {
       return new DomainStepFactory(new SpringInstantiationStrategy(new ClassPathXmlApplicationContext("applicationContext.xml")));
    }
 }
+}}}
 
+Don't forget to use your new subclass in the test page or SetUp.
+{{{
+|script|
+|start|my giv wen zen for slim|
 }}}
