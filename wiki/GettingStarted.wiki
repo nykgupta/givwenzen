@@ -2,7 +2,7 @@
 
 === 1) Download the zip with the full project http://givwenzen.googlecode.com/files/givwenzen.zip and unzip it into a directory  ===
 
-=== 2) Go a command line and go to the directory you unzipped the files to and {{{java -jar ./lib/fitnesse.jar}}} ===
+=== 2) Go a command line and go to the directory you unzipped the files to and run {{{java -jar ./lib/fitnesse.jar}}} ===
 
 === 3) Run the example slim test at http://localhost/SlimExamples ===
 
