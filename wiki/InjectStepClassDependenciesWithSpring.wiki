@@ -6,7 +6,7 @@ This is a sample of one way to instantiate step classes with their dependencies 
 
 
 = Details =
-First we create the stepd definition class using TDD. Then we annotate it with Spring annotations to show which dependencies need injecting.
+First we create the step definition class using TDD. Then we annotate it with Spring annotations to show which dependencies need injecting.
 {{{
 @Configurable(autowire = Autowire.BY_NAME, dependencyCheck = true)
 @DomainSteps
