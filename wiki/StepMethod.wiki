@@ -23,4 +23,4 @@ the captures, (\d+) in this example, from the match or passed as
 
 [http://code.google.com/p/givwenzen GivWenZen] does not throw an exception, at this point, when there are ambiguous steps.  
 
-see the {{{org.givwenzen.ExampleSteps}}} class in the givwenzen_test.jar and the SlimExamples
+see the {{{org.givwenzen.ExampleSteps}}} class in the givwenzen_test.jar and the {{{SlimExamples}}}
