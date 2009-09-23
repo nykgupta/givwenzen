@@ -16,7 +16,7 @@ would need a method annotated like:
       numbers.add(number);
    }
 }}}
-the captures, (\d+) in this example, from the match or passed as 
+the captures, (\d+) in this example, from the match are passed as 
 [ParameterConversion parameters] to the method.
 
 [http://code.google.com/p/givwenzen GivWenZen] throws an exception when steps are redundant.
