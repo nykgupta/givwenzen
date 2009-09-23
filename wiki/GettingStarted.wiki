@@ -48,9 +48,10 @@ public class ExampleSteps {
 
 }
 }}}
-----
 
 === 6) Run the test ===
+
+----
 
 === Dependencies: ===
 ==== required for main classes: ====
