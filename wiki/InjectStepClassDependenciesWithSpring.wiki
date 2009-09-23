@@ -72,7 +72,7 @@ public class MyGivWenZenForSlim extends GivWenZenForSlim {
 }
 }}}
 
-Don't forget to use your new subclass in the test page or SetUp.
+Don't forget to use your new subclass in the test page or [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SetUp].
 {{{
 |script|
 |start|my giv wen zen for slim|
