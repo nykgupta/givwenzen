@@ -9,7 +9,7 @@
 |org.givwenzen|
 
 |script|
-|start|domain steps for slim|
+|start|giv wen zen for slim|
 }}}
 -----
 
