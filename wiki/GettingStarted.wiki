@@ -23,7 +23,7 @@
 | when | the date changes to tomorrow  |
 | then | a notification exists indicating the ToDo is due |
 }}}
-=== 5) Create the [StepClass step class] and methods like the class below ===
+=== 5) Create the [StepClass step class] and [StepMethod methods] like the class below ===
 {{{
 package bdd.steps;
 
