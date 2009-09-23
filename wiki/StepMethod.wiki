@@ -5,8 +5,9 @@ Step methods are methods in a step class that are annotated with {{{org.givwenze
 ==== Example: ====
 
 the test:
-
+{{{
 |given|i have entered 50 into the calculator|
+}}}
 ----
 would need a method annotated like:
 {{{
