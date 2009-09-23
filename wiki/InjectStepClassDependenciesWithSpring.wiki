@@ -11,7 +11,6 @@ First we create the step definition class using TDD. Then we annotate it with Sp
 @Configurable(autowire = Autowire.BY_NAME, dependencyCheck = true)
 @DomainSteps
 class AutowiredStepDefinition {
-   //   @Autowired(required = true)
    private Dummy dummy;
 
    @Autowired(required = true)
