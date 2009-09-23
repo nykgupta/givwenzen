@@ -1,4 +1,17 @@
 [http://code.google.com/p/givwenzen http://code.google.com/p/givwenzen/logo?logo_id=1253704276&nonsense=something_that_ends_with.png]
  * GettingStarted
+  * ExampleSlimFixture  
+  * DisplayReturnValueInSlim
  * StepClass
+  * GroupingSteps
  * StepMethod
+  * BadStepParameter
+  * MissingStepMethod
+  * ParameterConversion
+  * ConstantsForRegExCaptures
+ * ChangingTheDefaults
+  * StepClassLocation
+  * CallingOtherSteps
+  * CustomStateForSteps
+  * StepClassInstantiation
+ * CucumberAndFitnesse
