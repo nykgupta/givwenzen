@@ -1,9 +1,14 @@
 === Getting started with [http://code.google.com/p/givwenzen GivWenZen] ===
 
- * To use GWZ you need to add the givwenzen.jar and the dependencies below.
+=== 1) Download the zip with the full project http://givwenzen.googlecode.com/files/givwenzen.zip and unzip it into a directory  ===
 
- * To use GWZ with the slim testing system use the {{{org.givwenzen.GivWenZenForSlim}}} by adding the following table to a tests.
------
+=== 2) Go a command line and go to the directory you unzipped the files to and {{{java -jar ./lib/fitnesse.jar}}} ===
+
+=== 3) Start by running the example slim test at http://localhost/SlimExamples ===
+
+=== 4) Create your on example fitnesse page modeled after the example test ===
+
+===== import and start should go in [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SetUp] or [http://fitnesse.org/FitNesse.UserGuide.SpecialPages SuiteSetUp] =====
 {{{
 |import|
 |org.givwenzen|
@@ -11,24 +16,41 @@
 |script|
 |start|giv wen zen for slim|
 }}}
------
-
- * Add a step to the test created in step 2.
------
-|given|this is a simple step|
------
-
- * Create a StepClass in the default step package bdd.steps.
-----
+===== this is your test =====
 {{{
-@DomainStep("this is a simple step")
-public boolean simpleStep() {
-  return true;
+|script|
+| given| a ToDo item is due tomorrow |
+| when | the date changes to tomorrow  |
+| then | a notification exists indicating the ToDo is due |
+}}}
+=== 5) The following is an example step class and test step method ===
+{{{
+package bdd.steps;
+
+@DomainSteps
+public class ExampleSteps {
+
+  @DomainStep(“a ToDo item is due (.*)”
+  public void createToDoWithDueDateOf(String date) {
+    // do something
+  }
+
+  @DomainStep(“the date changes to (.*)”
+  public void theDateIs(String date) {
+    // do something
+  }
+
+  @DomainStep(“a notification exists indicating the ToDo is due”
+  public boolean verifyNotificationExistsForDueToDo() {
+    // do something
+    return false;
+  }
+
 }
 }}}
 ----
 
- * Run the test
+=== 6) Run the test ===
 
 === Dependencies: ===
 ==== required for main classes: ====
