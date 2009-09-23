@@ -76,3 +76,5 @@ Don't forget to use your new subclass in the test page or [http://fitnesse.org/F
 |script|
 |start|my giv wen zen for slim|
 }}}
+
+That's it. It would be nice if there was a simpler way to plug in the {{{InstantiationStrategy}}}. That was a lot of rigamarole to go through.
