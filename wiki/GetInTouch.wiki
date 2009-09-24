@@ -1,5 +1,4 @@
-
-= Help us build the GivWenZen community =
+= Help us build the [http://code.google.com/p/givwenzen/ GivWenZen] community =
 
  * [http://groups.google.com/group/givwenzen_user User group]
  * [http://groups.google.com/group/givwenzen_developer Developer group]
