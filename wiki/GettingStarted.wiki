@@ -1,6 +1,6 @@
 === Getting started with [http://code.google.com/p/givwenzen GivWenZen] ===
 
-=== 1) Download the zip with the full project http://givwenzen.googlecode.com/files/givwenzen.zip and unzip it into a directory  ===
+=== 1) Download the zip with the full project and unzip it into a directory. Go to [http://code.google.com/p/givwenzen/downloads/list downloads] ===
 
 === 2) Go to a command line and cd to the directory you unzipped the files to and run {{{java -jar ./lib/fitnesse.jar}}} ===
 
