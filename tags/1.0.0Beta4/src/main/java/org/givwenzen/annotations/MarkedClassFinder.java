@@ -1,0 +1,58 @@
+package org.givwenzen.annotations;
+
+import java.lang.annotation.Annotation;
+import java.net.URL;
+import java.util.*;
+
+import org.reflections.Configuration;
+import org.reflections.Reflections;
+import org.reflections.filters.IncludePrefix;
+import org.reflections.scanners.ClassAnnotationsScanner;
+import org.reflections.scanners.SubTypesScanner;
+import org.reflections.util.AbstractConfiguration;
+import org.reflections.util.ClasspathHelper;
+
+public class MarkedClassFinder {
+  private Class<? extends Annotation> markerAnnotation = DomainSteps.class;
+  private Reflections reflections;
+
+  public MarkedClassFinder(final Class<? extends Annotation> markerAnnotation, final String basePackage) {
+    this.markerAnnotation = markerAnnotation;
+    Configuration configuration = new AbstractConfiguration() {
+      {
+        Collection<URL> allUrls = getUrlsFromString(basePackage);
+        setUrls(allUrls);
+        setScanners(new SubTypesScanner(), new ClassAnnotationsScanner());
+        setFilter(new IncludePrefix(markerAnnotation.getName()));
+      }
+    };
+    findClasses(configuration);
+  }
+
+  private Collection<URL> getUrlsFromString(String basePackage) {
+    Collection<URL> allUrls = new ArrayList<URL>();
+    StringTokenizer tokenizer = new StringTokenizer(basePackage, ",");
+    while (tokenizer.hasMoreTokens()) {
+      allUrls.addAll(ClasspathHelper.getUrlsForPackagePrefix(tokenizer.nextToken().trim()));
+    }
+    return allUrls;
+  }
+
+  private void findClasses(Configuration configuration) {
+    reflections = new Reflections(configuration);
+  }
+
+  public Set<MarkedClass> findMarkedClasses() {
+    return getMarkedClasses();
+  }
+
+  private Set<MarkedClass> getMarkedClasses() {
+    Set<Class<?>> classes = reflections.getTypesAnnotatedWith(markerAnnotation);
+    Set<MarkedClass> markedClasses = new HashSet<MarkedClass>(classes.size());
+    for (Class<?> aClass : classes) {
+      markedClasses.add(new MarkedClass(aClass));
+    }
+    return markedClasses;
+  }
+
+}
