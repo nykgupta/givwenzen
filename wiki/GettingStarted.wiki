@@ -30,17 +30,17 @@ package bdd.steps;
 @DomainSteps
 public class ExampleSteps {
 
-  @DomainStep(“a ToDo item is due (.*)”
+  @DomainStep( “a ToDo item is due (.*)” )
   public void createToDoWithDueDateOf(String date) {
     // do something
   }
 
-  @DomainStep(“the date changes to (.*)”
+  @DomainStep( “the date changes to (.*)” )
   public void theDateIs(String date) {
     // do something
   }
 
-  @DomainStep(“a notification exists indicating the ToDo is due”
+  @DomainStep( “a notification exists indicating the ToDo is due” )
   public boolean verifyNotificationExistsForDueToDo() {
     // do something
     return false;
