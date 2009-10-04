@@ -4,7 +4,7 @@
 
 === 2) Go to a command line and cd to the directory you unzipped the files to and run {{{java -jar ./lib/fitnesse.jar}}} ===
 
-=== 3) Run the example [http://fitnesse.org/FitNesse.UserGuide.SliM SliM] test at http://localhost/SlimExamples ===
+=== 3) Run the example [http://fitnesse.org/FitNesse.UserGuide.SliM SliM] test at http://localhost/SlimExamples and the [http://fitnesse.org/FitNesse.UserGuide.SliM SliM] tests for GWZ http://localhost/GivWenZenTests ===
 
 === 4) Create your own example [http://fitnesse.org/FrontPage FitNesse] page modeled after the example test ===
 
