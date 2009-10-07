@@ -16,4 +16,4 @@
   * StepClassInstantiation
  * CucumberAndFitnesse
 
-<p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/weswilliams/~6/1"><img src="http://feeds.feedburner.com/weswilliams.1.gif" alt="WesWilliams" style="border:0"></a></p>
+<p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/weswilliams/~6/1"><img src="http://feeds.feedburner.com/weswilliams.1.gif" alt="WesWilliams" style="border:0">
