@@ -1,0 +1,6 @@
+#labels Featured
+#{{{GivWenZen}}} Beta 5 Release
+
+= GivWenZen Beta 5 Released =
+
+The new beta release has better documentation and examples and defect corrections.
