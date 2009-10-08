@@ -1,6 +1,19 @@
 #labels Featured
 #{{{GivWenZen}}} Beta 5 Release
 
-= GivWenZen Beta 5 Released =
+= {{{GivWenZen}}} Beta 5 Released =
 
 The new beta release has better documentation and examples and defect corrections.
+
+= Details =
+
+== Enhancements ==
+ * New {{{FitNesse}}} tests that both show how to use {{{GivWenZen}}} features and test those features at the same time.
+ * {{{FitNesse}}} examples and tests have links to source related to them.
+ * Examples were separated from tests and new examples jar created.  Test are only available by getting the source now.
+ * {{{FitNesse}}} CSS changes to hide table borders and {{{FitNesse}}} 'technical' rows.  Makes the test look more like specs.
+ * updated to reflections 0.9.4 which allows the latest version of google-collections to be used
+ * added a sample of using {{{GivWenZen}}} with JUnit (only available in tests package currently).  This allows BDD functional specs/tests to be defined in JUnit as well as FitNesse.
+
+== Defects Fixed ==
+ * Issue with step text matching multiple steps was fixed. http://code.google.com/p/givwenzen/issues/detail?id=4&can=1
