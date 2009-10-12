@@ -66,9 +66,7 @@ public class ExampleSteps {
  * slf4j-simple-1.5.6.jar
 
 ==== additional requirements for test classes ====
- * junit-4.5.jar
- * hamcrest-core-1.1.jar
- * javassist.jar
- * json.jar
- * mockito-core-1.7.jar
- * objenesis-1.0.jar
+ * hamcrest-core-1.1.jar" />
+ * junit-4.5.jar" />
+ * mockito-core-1.7.jar" />
+ * objenesis-1.0.jar" />
