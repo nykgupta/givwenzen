@@ -2,6 +2,7 @@
  * GettingStarted
   * ExampleSlimFixture  
   * DisplayReturnValueInSlim
+ * FitLibraryExamples
  * StepClass
   * GroupingSteps
  * StepMethod
