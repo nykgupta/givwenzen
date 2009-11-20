@@ -1,10 +1,10 @@
 #labels Featured
 = {{{GivWenZen}}} Beta 6 Released =
 
-Beta 6 adds FitLibrary examples and a fix for finding steps in jars.
+Beta 6 adds [http://fitlibrary.wiki.sourceforge.net/ FitLibrary] examples and a fix for finding steps in jars.
 
 == Enhancements ==
- * Added FitLibrary examples using DoFixture.  Very simple to do.
+ * Added {{{FitLibrary}}} examples using {{{DoFixture}}}.  Very simple to do.
  ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary.html
  ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary-part-2.html
  ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary-part-3.html
