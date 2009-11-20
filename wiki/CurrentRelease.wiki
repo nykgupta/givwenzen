@@ -1,5 +1,19 @@
 #labels Featured
-#{{{GivWenZen}}} Beta 5 Release
+= {{{GivWenZen}}} Beta 6 Released =
+
+Beta 6 adds FitLibrary examples and a fix for finding steps in jars.
+
+== Enhancements ==
+ * Added FitLibrary examples using DoFixture.  Very simple to do.
+ ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary.html
+ ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary-part-2.html
+ ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary-part-3.html
+ ** http://weswilliamz.blogspot.com/2009/11/givwenzen-and-fitlibrary-part-4.html
+
+== Defects Fixed ==
+ * Issue with finding steps in jars.  There is a new patched version of Reflection 0.9.4
+
+----
 
 = {{{GivWenZen}}} Beta 5 Released =
 
