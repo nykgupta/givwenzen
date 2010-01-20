@@ -1,4 +1,4 @@
 #labels screencast,gettingstarted
 This screencast gives a 10 minute how to on getting started with GivWenZen.
 
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/dhorlL7AKv0&hl=en_US&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/dhorlL7AKv0&hl=en_US&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+<wiki:video url="http://www.youtube.com/watch?v=dhorlL7AKv0"/>
