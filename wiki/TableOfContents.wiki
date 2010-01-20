@@ -1,5 +1,6 @@
 [http://code.google.com/p/givwenzen http://code.google.com/p/givwenzen/logo?logo_id=1253704276&nonsense=something_that_ends_with.png]
  * GettingStarted
+  * [http://code.google.com/p/givwenzen/wiki/2MinuteIntroScreencast 2MinuteIntroScreencast]
   * [http://code.google.com/p/givwenzen/wiki/10MinuteHowToScreencast 10MinuteHowToScreencast]
   * ExampleSlimFixture  
   * DisplayReturnValueInSlim
