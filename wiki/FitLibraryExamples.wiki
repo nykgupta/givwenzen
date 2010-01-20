@@ -1,4 +1,4 @@
-#labels BDD,Featured,FitLibrary
+#labels BDD,FitLibrary
 = Now you can use [http://fitlibrary.wiki.sourceforge.net/ FitLibrary] with {{{GivWenZen}}} =
 
 My previous examples of using {{{GivWenZen}}} to write BDD style tests with {{{FitNesse}}} were done with the SLiM test system.  This was mostly due to an issue getting {{{FitLibrary}}} to run with the latest version of {{{FitNesse}}}.  However, Rick Mugridge has released a new version that fixes this issue as well as a few other nice enhancements.  Fixing of autowrapping of booleans, Strings, and other native java types was also big benefit to helping the BDD test read better.
