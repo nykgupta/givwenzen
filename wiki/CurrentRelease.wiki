@@ -1,4 +1,12 @@
 #labels Featured
+= {{{GivWenZen}}} Beta 7 Released =
+
+This release adds more examples, updates to the latest versions of fitnesse and google collections.  
+
+Due to an always breaking/changing reflections dependency added the patched version of the source to givwenzen source and removed that jar.    
+
+Added intellij 9 modules.
+
 = {{{GivWenZen}}} Beta 6 Released =
 
 Beta 6 adds [http://fitlibrary.wiki.sourceforge.net/ FitLibrary] examples and a fix for finding steps in jars.
