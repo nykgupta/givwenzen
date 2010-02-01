@@ -59,14 +59,16 @@ public class MyGivWenZenForSlim extends GivWenZenForSlim {
    protected static DomainStepExecutor createGivWenZenExecutor() {
       if (executor != null) return executor;
 	   
-      executor  = new GivWenZenExecutor(null, new DomainStepFinder(),
-                                    autowireStepDefinitionClassesWithSpring());
+      executor  = GivWenZenExecutorCreator.instance()
+         .customInstantiationStrategies(autowireStepDefinitionClassesWithSpring())
+         .create();
       return executor;
    }
 
-   private static DomainStepFactory autowireStepDefinitionClassesWithSpring() {
+   private static InstantiationStrategy autowireStepDefinitionClassesWithSpring() {
       // take a deep breath
-      return new DomainStepFactory(new SpringInstantiationStrategy(new ClassPathXmlApplicationContext("applicationContext.xml")));
+      return new SpringInstantiationStrategy(
+         new ClassPathXmlApplicationContext("applicationContext.xml"));
    }
 }
 }}}
