@@ -1,4 +1,11 @@
 #labels Featured
+= {{{GivWenZen}}} Beta 8 Released =
+== Enhancements ==
+ * GivWenZenExecutorCreator - allows creating a custom executor to override the defaults without knowing the details of how it is done.  Much more convenient.
+ * Added the ability to have multiple custom state objects.  WARNING - there is a change to GivWenZenExecutor constructor parameter order.  Use the GivWenZenExecutorCreator to avoid these issues in the future.
+ * InteliJ 9 project folder.
+
+
 = {{{GivWenZen}}} Beta 7 Released =
 
 This release adds more examples, updates to the latest versions of fitnesse and google collections.  
