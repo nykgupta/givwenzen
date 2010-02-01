@@ -2,9 +2,10 @@
 
 Similar to the ability to call other steps inside your step classes you can have a step class that is instantiated with a custom state object.
 
-To use a custom state object you must create the {{{org.givwenzen.GivWenZenExecutor}}} with the constructor:
+To use a custom state object you must create the {{{org.givwenzen.GivWenZenExecutor}}} using the {{{org.givwenzen.GivWenZenExecutorCreator}}} telling the creator what your custom state object(s) is/are:
 {{{
-   public GivWenZenExecutor(Object stepState, DomainStepFinder domainStepFinder)
+   GivWenZenExecutor executor = GivWenZenExecutorCreator.instance()
+      .customStepState(myCustomStateInstance)
+      .create();
 }}}
- * Pass in your custom state object instance as the first parameter
- * and create a {{{org.givwenzen.DomainStepFinder}}} with either the default constructor to use the default step package or the constructor that takes a String to use a [StepClassLocation  custom step package].
+Create a step class that takes your custom state object (or it's base class or interface) in single parameter constructor.
