@@ -17,13 +17,12 @@ Implement the method:
 }}}
 If the step Class that is passed in as the first parameter can be created using your custom strategy then create and return the object in an instance of the {{{org.givwenzen.annotations.InstantiationState}}} interface (see {{{org.givwenzen.annotations.DefaultInstantiationState}}}).  If it cannot be created by your strategy then return {{{org.givwenzen.annotations.DefaultInstantiationState.UNINSTANTIATED}}}.
 ----
-To use this custom implementation you must create the {{{org.givwenzen.GivWenZenExecutor}}} with the constructor:
+To use this custom implementation you must create the {{{org.givwenzen.GivWenZenExecutor}}} using the {{{org.givwenzen.GivWenZenExecutorCreator}}} telling it what your custom instantiation object(s) is/are:
 {{{
-public GivWenZenExecutor(Object stepState, DomainStepFinder domainStepFinder, DomainStepFactory factory)
+   GivWenZenExecutor executor = GivWenZenExecutorCreator.instance()
+      .customInstantiationStrategies(new MyCustomInstantiationStrategy())
+      .create();
 }}}
- * If you have no stepState object to pass to your steps then this parameter can be null.
- * If you do not need a custom step package you can use the default constructor for {{{org.givwenzen.DomainStepFinder}}}.
- * Create {{{org.givwenzen.DomainStepFactory}}} using the constructor that takes 1 or more {{{org.givwenzen.annotations.InstantiationStrategy}}}.
 
 ----
 See an [InjectStepClassDependenciesWithSpring example] using spring to instantiate the step classes.
