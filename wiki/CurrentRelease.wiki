@@ -1,4 +1,12 @@
 #labels Featured
+= {{{GivWenZen}}} Beta 9 Released =
+== Enhancements ==
+ * Builder added for instantiation states
+ * Updated to new FitNesse release
+
+== Defects Fixed ==
+ * eclipse and intellij projects are working again
+
 = {{{GivWenZen}}} Beta 8 Released =
 == Enhancements ==
  * GivWenZenExecutorCreator - allows creating a custom executor to override the defaults without knowing the details of how it is done.  Much more convenient.
