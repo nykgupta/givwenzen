@@ -1,4 +1,0 @@
-#labels screencast,gettingstarted
-This screencast gives a 2 minute intro to GivWenZen.
-
-<wiki:video url="http://www.youtube.com/watch?v=c1W0tYMMoiw"/>
