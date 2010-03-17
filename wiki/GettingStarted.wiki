@@ -55,6 +55,7 @@ public class ExampleSteps {
 
 === Dependencies: ===
 ==== required for main classes: ====
+ * *java 6*
  * commons-logging.jar
  * javassist.jar
  * log4j-1.2.9.jar
