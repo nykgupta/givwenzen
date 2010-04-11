@@ -1,4 +1,17 @@
 #labels Featured
+= {{{GivWenZen}}} Beta 10 Released =
+== Enhancements ==
+ * Added vararg and array of values support for step parameters. http://code.google.com/p/givwenzen/issues/detail?id=13&can=1&q=beta10
+ * Convention added for finding new MethodParameterParser without GWZ code change. http://code.google.com/p/givwenzen/issues/detail?id=16&can=1&q=beta10
+
+== Defects Fixed ==
+ * missing src from with dependencies jar
+ * better message for steps not found errors
+
+All issues: http://code.google.com/p/givwenzen/issues/list?can=1&q=beta10&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles
+
+----
+
 = {{{GivWenZen}}} Beta 9 Released =
 == Enhancements ==
  * Builder added for instantiation states
