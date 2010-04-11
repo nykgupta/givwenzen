@@ -3,7 +3,7 @@
 
 = {{{GivWenZen}}} Beta 10 Released =
 == Enhancements ==
- * Added vararg and array of values support for step parameters. http://code.google.com/p/givwenzen/issues/detail?id=13&can=1&q=beta10
+ * [http://code.google.com/p/givwenzen/issues/detail?id=13&can=1&q=beta10 Added vararg and array of values support for step parameters]
  * Convention added for finding new MethodParameterParser without GWZ code change. http://code.google.com/p/givwenzen/issues/detail?id=16&can=1&q=beta10
 
 == Defects Fixed ==
