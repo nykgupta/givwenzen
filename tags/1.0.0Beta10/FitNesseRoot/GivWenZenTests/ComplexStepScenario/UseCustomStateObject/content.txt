@@ -1,0 +1,10 @@
+-|script|
+|given|custom state objects are used|
+|when|calling a step that sets VALUE in the first custom state|
+|and|calling a step that sets VALUE in the second custom state|
+|then|another step has access to VALUE in the first custom state|
+|and|another step has access to VALUE in the second custom state|
+
+!3 See:
+ * http://code.google.com/p/givwenzen/source/browse/trunk/src/test/java/bdd/steps/ComplexSteps.java
+ * http://code.google.com/p/givwenzen/source/browse/trunk/src/test/java/bdd/steps/TestCustomState.java

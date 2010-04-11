@@ -1,0 +1,11 @@
+-|script|
+|given|a step annotated with 'simple step with custom type parameter !-CustomType-!' that takes a !-CustomType-! as a parameter|
+|and|the !-CustomType-! has a !-CustomTypeEditor-! in the same package as the !-CustomType-!|
+|when|the step 'simple step with custom type parameter !-CustomType-!' is called|
+|then|the step 'simple step with custom type parameter !-CustomType-!' executes successfully|
+|and|the custom value !-CustomType-! is passed as a parameter|
+
+!3 See also:
+ * http://code.google.com/p/givwenzen/source/browse/trunk/src/test/java/bdd/steps/SimpleTestSteps.java
+ * http://code.google.com/p/givwenzen/source/browse/trunk/src/test/java/bdd/steps/CustomType.java
+ * http://code.google.com/p/givwenzen/source/browse/trunk/src/test/java/bdd/steps/CustomTypeEditor.java
