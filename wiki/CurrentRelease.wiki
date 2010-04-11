@@ -1,4 +1,6 @@
 #labels Featured
+[http://code.google.com/p/givwenzen/downloads/list Download latest version]
+
 = {{{GivWenZen}}} Beta 10 Released =
 == Enhancements ==
  * Added vararg and array of values support for step parameters. http://code.google.com/p/givwenzen/issues/detail?id=13&can=1&q=beta10
