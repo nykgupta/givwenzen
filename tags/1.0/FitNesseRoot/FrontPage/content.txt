@@ -1,0 +1,5 @@
+|!2 [[!-UserGuide-!][http://code.google.com/p/givwenzen/wiki/GettingStarted]]|!3 !-How to use GivWenZen-!|
+|!2 [[!-GWZTests-!][.GivWenZenTests]]|!3 !-Examples of using the GivWenZen with the Slim-!|
+|!2 [[!-SlimExamples-!][.SlimExamples]]|!3 !-Examples of using the GivWenZen with the Slim-!|
+|!2 [[!-FitLibraryExamples-!][.FitLibraryExamples]]|!3 !-Examples of using the GivWenZen with the FitLibrary-!|
+
