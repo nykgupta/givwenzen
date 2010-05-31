@@ -94,3 +94,5 @@ You will need:
 
 *!
 }}}
+
+* Note that you have to compile your classes every time you change/add them in order to be reflected to FitNesse. You can either do "mvn test," or let your IDE compile it to where Maven places the binaries (target/classes, target/test-classes)
