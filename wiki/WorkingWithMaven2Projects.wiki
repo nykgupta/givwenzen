@@ -2,7 +2,7 @@
 
 == Introduction ==
 
-FitNesse is not really designed to work with Maven 2 projects out of the box. But there are ways to make it work. 
+{{{FitNesse}}} is not really designed to work with Maven 2 projects out of the box. But there are ways to make it work. 
 
 For the specific way detailed below, we will be able to make FitNesse and GivWenZen work with an existing Maven 2 project with the help of Lars Vonk's [http://github.com/lvonk/fitnesse-maven-classpath Maven Classpath Plugin]. 
 
