@@ -82,7 +82,7 @@ You will need:
           - StepClass.java
 }}}
  # Compile your project by invoking at least to "test" lifecycle of Maven (mvn test). Run {{{FitNesse}}} by invoking "java -jar fitnesse.jar" from the commandline at the fitnesse directory level.
- # On your suite or test page in {{{FitNesse}}}, reference your project's pom.xml by adding this: "!pomFile /path/to/pom.xml." From our example, you can create a SetUp page with the following: 
+ # On your suite or test page in {{{FitNesse}}}, reference your project's pom.xml by adding this: "!pomFile /path/to/pom.xml." From our example, you can create a {{{SetUp}}} page with the following: 
 {{{
 !contents -R2 -g -p -f -h
 
