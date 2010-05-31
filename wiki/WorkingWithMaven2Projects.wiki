@@ -16,7 +16,7 @@ You will need:
 
 == Steps ==
 
-# Create a directory. For this example we will name it "fitnesse." Recommended is to make it at least a peer to your current maven project. Point being, it is easier to navigate to the pom file from FitNesse. e.g.
+ # Create a directory. For this example we will name it "fitnesse." Recommended is to make it at least a peer to your current maven project. Point being, it is easier to navigate to the pom file from FitNesse. e.g.
 {{{
 + fitnesse
 - mavenProject
@@ -24,5 +24,42 @@ You will need:
   - src
     + main
     + test
+}}}
+ # Place fitnesse jar inside the fitnesse directory. Create a "plugins" directory inside the fitesse directory and place the maven classpath plugin jar there. Create a plugins.properties file inside the fitnesse directory, and write "WikiWidgets = fitnesse.wikitext.widgets.MavenClasspathWidget" in one line without the quotes. You should now have something like this:
+{{{
+- fitnesse
+  - fitnesse.jar
+  - plugins.properties
+  - plugins
+    - maven-classpath-plugin-XX-jar-with-dependencies.har
+}}}
+ # Add the GivWenZen maven repo to your settings.xml file. In .m2/settings.xml, add the following entry:
+{{{
+<settings>
+..
+..
+  <profiles>
+    <profile>
+      <id>givwenzen-profile</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
 
+      <repositories>
+        <repository>
+      	  <id>givwenzen-repo</id>
+      	  <name>GivWenZen Repository</name>
+      	  <url>http://givwenzen.googlecode.com/svn/maven2</url>
+      	  <releases>
+            <enabled>true</enabled>
+          </releases>
+     	  <snapshots>
+            <enabled>true</enabled>
+      	  </snapshots>
+        </repository>
+    </profile>
+  </profiles>  
+..
+..
+</settings>
 }}}
