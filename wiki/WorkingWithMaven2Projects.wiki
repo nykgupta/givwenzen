@@ -33,7 +33,7 @@ You will need:
   - plugins
     - maven-classpath-plugin-XX-jar-with-dependencies.har
 }}}
- # Add the GivWenZen maven repo to your settings.xml file. In .m2/settings.xml, add the following entry:
+ # Add the {{{GivWenZen}}} maven repo to your settings.xml file. In .m2/settings.xml, add the following entry:
 {{{
 <settings>
 ..
@@ -63,7 +63,7 @@ You will need:
 ..
 </settings>
 }}}
- # Add GivWenZen as a dependency to your project with scoped for tests. Your pom.xml should have this entry:
+ # Add {{{GivWenZen}}} as a dependency to your project with scoped for tests. Your pom.xml should have this entry:
 {{{
   <dependency>
     <groupId>com.googlecode.givwenzen</groupId>
@@ -72,7 +72,7 @@ You will need:
     <scope>test</scope>
   </dependency>
 }}}
- # With GivWenZen in your classpath, you can now create step classes from within your test directory:
+ # With {{{GivWenZen}}} in your classpath, you can now create step classes from within your test directory:
 {{{
 - mavenProject
   - src
@@ -81,8 +81,8 @@ You will need:
         - bdd.steps
           - StepClass.java
 }}}
- # Compile your project by invoking at least to "test" lifecycle of Maven (mvn test). Run FitNesse by invoking "java -jar fitnesse.jar" from the commandline at the fitnesse directory level.
- # On your suite or test page in FitNesse, reference your project's pom.xml by adding this: "!pomFile /path/to/pom.xml." From our example, you can create a SetUp page with the following: 
+ # Compile your project by invoking at least to "test" lifecycle of Maven (mvn test). Run {{{FitNesse}}} by invoking "java -jar fitnesse.jar" from the commandline at the fitnesse directory level.
+ # On your suite or test page in {{{FitNesse}}}, reference your project's pom.xml by adding this: "!pomFile /path/to/pom.xml." From our example, you can create a SetUp page with the following: 
 {{{
 !contents -R2 -g -p -f -h
 
@@ -95,4 +95,4 @@ You will need:
 *!
 }}}
 
-* Note that you have to compile your classes every time you change/add them in order to be reflected to FitNesse. You can either do "mvn test," or let your IDE compile it to where Maven places the binaries (target/classes, target/test-classes)
+* Note that you have to compile your classes every time you change/add them in order to be reflected to {{{FitNesse}}}. You can either do "mvn test," or let your IDE compile it to where Maven places the binaries (target/classes, target/test-classes)
