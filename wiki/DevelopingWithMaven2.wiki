@@ -1,11 +1,11 @@
 #summary Developer's guide to GivWenZen using Maven 2
 
-= Introduction =
+== Introduction ==
 
 {{{GivWenZen}}} now supports two build frameworks. Ant and Maven 2. This guide is for those more inclined to use the latter.
 
 
-= Required Steps =
+== Required Steps ==
 
  # Add {{{GivWenZen}}} repo to your Maven 2 settings file. In ~/.m2/settings.xml add the following entry:
 {{{
