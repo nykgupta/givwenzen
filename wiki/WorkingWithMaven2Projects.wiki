@@ -1,0 +1,28 @@
+#summary User's guide for using GivWenZen with an existing Maven 2 Project
+
+== Introduction ==
+
+FitNesse is not really designed to work with Maven 2 projects out of the box. But there are ways to make it work. 
+
+For the specific way detailed below, we will be able to make FitNesse and GivWenZen work with an existing Maven 2 project with the help of Lars Vonk's [http://github.com/lvonk/fitnesse-maven-classpath Maven Classpath Plugin]. 
+
+
+== Requirements ==
+
+You will need:
+ * Latest [http://fitnesse.org/FrontPage.FitNesseDevelopment.DownLoad FitNesse jar]
+ * Latest [http://github.com/lvonk/fitnesse-maven-classpath/downloads Maven Classpath Plugin jar]
+
+
+== Steps ==
+
+# Create a directory. For this example we will name it "fitnesse." Recommended is to make it at least a peer to your current maven project. Point being, it is easier to navigate to the pom file from FitNesse. e.g.
+{{{
++ fitnesse
+- mavenProject
+  - pom.xml
+  - src
+    + main
+    + test
+
+}}}
