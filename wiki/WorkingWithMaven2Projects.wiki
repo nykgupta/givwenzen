@@ -63,3 +63,34 @@ You will need:
 ..
 </settings>
 }}}
+ # Add GivWenZen as a dependency to your project with scoped for tests. Your pom.xml should have this entry:
+{{{
+  <dependency>
+    <groupId>com.googlecode.givwenzen</groupId>
+    <artifactId>givwenzen</artifactId>
+    <version>1.0</version>
+    <scope>test</scope>
+  </dependency>
+}}}
+ # With GivWenZen in your classpath, you can now create step classes from within your test directory:
+{{{
+- mavenProject
+  - src
+    - test
+      - java
+        - bdd.steps
+          - StepClass.java
+}}}
+ # Compile your project by invoking at least to "test" lifecycle of Maven (mvn test). Run FitNesse by invoking "java -jar fitnesse.jar" from the commandline at the fitnesse directory level.
+ # On your suite or test page in FitNesse, reference your project's pom.xml by adding this: "!pomFile /path/to/pom.xml." From our example, you can create a SetUp page with the following: 
+{{{
+!contents -R2 -g -p -f -h
+
+!**> setup test system
+
+!define TEST_SYSTEM {slim}
+
+!pomFile ../pom.xml
+
+*!
+}}}
