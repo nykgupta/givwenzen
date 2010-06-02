@@ -63,7 +63,7 @@ You will need:
 ..
 </settings>
 }}}
- # Add {{{GivWenZen}}} as a dependency to your project with scoped for tests. Your pom.xml should have this entry:
+ # Add {{{GivWenZen}}} as a dependency to your project scoped for tests. Your pom.xml should have this entry:
 {{{
   <dependency>
     <groupId>com.googlecode.givwenzen</groupId>
