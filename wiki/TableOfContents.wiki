@@ -21,7 +21,7 @@
  * CucumberAndFitnesse
  * Working with Maven 2
   * WorkingWithMaven2Projects
-  * DevelopingWithMaven2  
+  * DevelopingGivWenZenWithMaven2
 <p style="margin-top:10px; margin-bottom:0; padding-bottom:0; text-align:center; line-height:0"><a target="_blank" href="http://feeds.feedburner.com/~r/weswilliams/~6/1"><img src="http://feeds.feedburner.com/weswilliams.1.gif" alt="WesWilliams" style="border:0">
 
 <a href="http://www.atlassian.com/software/clover" title="Atlassian Clover"><img border="0" width="180" height="60" alt="Atlassian Clover" src="http://www.atlassian.com/software/clover/images/badges/v1/lg_clover.png">
