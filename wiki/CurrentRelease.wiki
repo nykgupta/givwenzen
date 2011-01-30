@@ -1,6 +1,14 @@
 #labels Featured
 [http://code.google.com/p/givwenzen/downloads/list Download latest version]
 
+= {{{GivWenZen}}} 1.0.1 =
+== Enhancements ==
+ * simple Levenshtein distance to find similar
+methods when method is not found
+
+== Defects Fixed ==
+ * fix to format issues with exception message when a step is missing
+
 = {{{GivWenZen}}} 1.0 =
 == Enhancements ==
  * added pom to be used for maven central deployment
